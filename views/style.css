@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+  font-family: 'Syne Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin: auto;
+}
+
+
+.h-100 {
+	height: 100%!important;
+}
+
+video {
+	width: 33%;
+	height: 33%;
+	margin: auto;
+	background: #2c3e50;
+}
+  
+.videos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
