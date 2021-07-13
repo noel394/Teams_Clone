@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Teams Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">  
+    <link rel="stylesheet" src="style.css">
+  </head>
+
+  <body class="h-100">
+    <div class="videos">
+     <span>
+        <h3>Local Stream</h3><!-- For local video -->
+        <video id="localVideo" autoplay playsinline></video>
+      </span>
+      <span>
+        <h3>Remote Stream</h3><!-- For remote video -->
+        <video id="remoteVideo" autoplay playsinline></video>
+      </span>
+    </div>
+
+    <!-- SocketIO for signalling -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- TURN config -->
+    <script src="js\config.js"></script>
+    <!-- WebRTC adapter for compatibility with all the browsers  -->
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <!-- WebRTC functions -->
+    <script src="js\main.js"></script>  
+  </body>
+
+</html>
